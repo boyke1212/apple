@@ -201,8 +201,8 @@ struct Laporkan: View {
                             .padding(.all,5)
                               
                         Button("Submit") {
-                            var kok:String=String(viewmodel.latitude)
-                            print(kok)
+                           // var //kok:String=String(viewmodel.latitude)
+                          //  print(kok)
                         }.frame(width:300,height: 40)
                             .font(.system(size: 13))
                             .background(.blue)
